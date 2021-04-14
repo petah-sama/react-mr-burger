@@ -70,7 +70,7 @@ class BurgerBuilder extends Component {
             <Fragment>
                 <Modal show={this.state.purchasing}>
                     <OrderSummary ingredients={this.state.ingredients} />    
-                </Modal>>
+                </Modal>
                 <Burger ingredients={this.state.ingredients} />
                 <BuildControls
                     addIngredient={this.addIngredientHandler}
